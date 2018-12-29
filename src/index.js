@@ -4,6 +4,16 @@ import './index.scss';
 import App from './pages/app';
 import * as serviceWorker from './serviceWorker';
 
+import locale from "./common/locales/zh-cn";
+
+Object.defineProperty(window, "UDL", {
+    enumerable: true,
+    configurable: false,
+    get: function() {
+        return locale;
+    },
+});
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
