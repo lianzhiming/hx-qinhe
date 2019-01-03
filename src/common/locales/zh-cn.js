@@ -6,7 +6,16 @@ var locale = {
         question: "问题",
         answer: "答案",
         to:"至",
-        versionUpdate: "很高兴的通知您，我们网站刚刚发布了新版本！为了保证您的正常使用，我们需要您立即保存当前的工作，然后刷新页面（点击浏览器的刷新按钮，或者按下F5键），以让我们的新版本生效。非常感谢您的配合！",
+
+        websiteTitle:"河北沁荷环保科技有限公司",
+        home:"网站首页",
+        companyProfile:"企业简介",
+        productCenter:"产品中心",
+        newsInformation:"新闻资讯",
+        videoCollection:"视频锦集",
+        serviceCenter:"服务中心",
+        onlineConsultation:"在线咨询",
+        contactUs:"联系我们",
     },
     business: {
         common: {
@@ -37,19 +46,18 @@ var locale = {
         },
     },
     pages: {
-        intelligentKnowledgeDiscovery: {
-            list: {
-                title: "智能知识发现",
-                tipOne: "使用Ubot，一键转为机器人知识库",
-                tipTwo: "为您自动处理12313次咨询，将客服效率提高100%。",
-                hotline: "采购热线： 010-86461073",
+        app:{
+            header:{
+                topTitle:"您好！欢迎来到河北沁荷环保科技有限公司",
+                phoneTitle:"全国销售电话",
+                phone:"400-0685-611",
             },
-            detail: {
-                title:"知识详情",
-                bestAnswerTitle: "可能的最佳问答",
-                allAnswersFormat:"所有问答({0})",
-                discoveryTime: "发现时间",
-                dialogueRecords:"对话记录",
+            footer:{
+                copyright:"版权所有:河北沁荷环保科技有限公司",
+                telephone:"电话: 0310-5302291",
+                mobilePhone:"手机: 400-0685-611",
+                recordNumber:"冀ICP备18014509号-1",
+                websiteUrl:"网址: www.hdqinhe.com",
             },
         },
     },

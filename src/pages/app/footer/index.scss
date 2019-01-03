@@ -1,0 +1,43 @@
+@import '../variables.scss';
+.app-footer{
+    .nav-box{
+        height:50px;
+        background-color: $background-second;
+        color:$font-main-color;
+        display: flex;
+        align-items: center;
+        .footer-nav{
+            display: flex;
+            justify-content: center;
+            .nav{
+                padding:0 35px;
+                border-right:1px solid $border-color;
+                &:last-child{
+                    border:none;
+                }
+            }
+        }
+    }
+    .content-box{
+        padding:38px 0;
+        background-color: $font-second-color;
+        .content{
+            display: flex;
+            justify-content: space-between;
+            color:$white;
+            .left-content{
+                .title{
+                    font-size:24px;
+                    margin-bottom:20px;
+                }
+                .company-information{
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+            .right-content{
+                align-self:flex-start;
+            }
+        }
+    }
+}

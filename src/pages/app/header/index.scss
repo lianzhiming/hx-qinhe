@@ -1,0 +1,40 @@
+@import '../variables.scss';
+.app-header{
+    .top{
+        background-color: $background;
+        height:40px;
+        .top-content{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $font-second-color;
+            .sales-call{
+                .call-value{
+                    color: $font-blue;
+                }
+            }
+        }
+    }
+    .nav-box{
+        height:107px;
+        .nav-content{
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .top-nav{
+                height:100%;
+                display: flex;
+                .nav{
+                    height:100%;
+                    line-height: 107px;
+                    padding:0 20px;
+                    &:hover{
+                        color:$font-blue;
+                    }
+                }
+            }
+        } 
+    }
+}
